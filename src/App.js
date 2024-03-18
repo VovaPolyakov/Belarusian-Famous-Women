@@ -7,11 +7,9 @@ import './index.css';
 function App() {
   return <>
     <BrowserRouter>
-      <div className="app-content">
         <Header/>
         <Router/>
-        <Footer/>
-      </div>
+        {/* <Footer/> */}
     </BrowserRouter>
   </>
 }

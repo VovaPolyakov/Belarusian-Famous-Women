@@ -1,6 +1,6 @@
 import styles from '../../styles/Women.module.scss'
 import { useState } from 'react'
-import { data } from '../../assets/data/data'
+import data from '../../assets/data/data'
 import { useParams } from 'react-router-dom'
 
 export const Women = () => {
