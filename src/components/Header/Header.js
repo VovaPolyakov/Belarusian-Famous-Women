@@ -7,7 +7,7 @@ export const Header = () => {
              <div className={styles.container}>
                 <div className={styles.header_row}>
                     <div className={styles.header_button}>
-                        <Link to='/'><i class="fa fa-home" style={{fontSize:"36px",color:"black"}}></i></Link>
+                        <Link to='/'><i class="fa fa-home" style={{fontSize:"36px",color:"rgb(67 53 53)"}}></i></Link>
                     </div>
                 </div>
             </div>
