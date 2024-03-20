@@ -7,6 +7,7 @@ export const Main = () => {
     return (
         <div className={styles.main}>
             <div className={styles.container}>
+                <h1>ЖЕНЦИНЫ В ИСТОРИИ БЕЛАРУСИ</h1>
                 <div className={styles.main_row}>
                     <div className={styles.main_cards}>
                         {data.map((item) => {

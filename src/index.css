@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(214, 214, 178);
+  background-image: url('./assets/img/grunge-vintage-old-paper-background.jpg');
+  background-size: cover;
+  font-family: "Noto Serif", serif;
 }
 
 code {

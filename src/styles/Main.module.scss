@@ -1,8 +1,15 @@
 .main{
-    padding: 120px 0px 200px 0px;
+    padding: 50px 0px 100px 0px;
+    // background-image: url('../assets/img/white-parchment-paper.jpg');
+    // background-size: cover;
     .container{
         margin: 0 auto;
         width: 85%;
+        h1{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 400;
+        }
         .main_row{
 
             .main_cards{

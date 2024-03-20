@@ -8,7 +8,26 @@ export const Women = () => {
     const women = data.filter((woman) => woman.id == id);
     return (
         <div className={styles.women}>
-            <p>{women[0].name}</p>
+            <div className={styles.container}>
+                <div className={styles.woman_main}>
+                    <div className={styles.img}>
+                        <img src={women[0].img}></img>
+                    </div>
+                    <div className={styles.main_text}>
+                        <h2>{women[0].name}</h2>
+                        <p>{women[0].year}</p>
+                        <p>
+                            {women[0].text[0].main}
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.women_second}>
+                    <h3>Биография</h3>
+                    <div>
+                        {women[0].text[1].bio}
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
